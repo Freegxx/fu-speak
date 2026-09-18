@@ -1,0 +1,90 @@
+{
+  "pages": [
+    {
+      "path": "pages/word/word",
+      "style": {
+        "navigationBarTitleText": "单词"
+      }
+    },
+    {
+      "path": "pages/speaking/speaking",
+      "style": {
+        "navigationBarTitleText": "口语"
+      }
+    },
+    {
+      "path": "pages/profile/profile",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/word/book-selector",
+      "style": {
+        "navigationBarTitleText": "选择词书"
+      }
+    },
+    {
+      "path": "pages/word/learning",
+      "style": {
+        "navigationBarTitleText": "学习单词"
+      }
+    },
+    {
+      "path": "pages/speaking/conversation",
+      "style": {
+        "navigationBarTitleText": "对话练习"
+      }
+    },
+    {
+      "path": "pages/speaking/history",
+      "style": {
+        "navigationBarTitleText": "对话记录"
+      }
+    },
+    {
+      "path": "pages/profile/level-info",
+      "style": {
+        "navigationBarTitleText": "等级说明"
+      }
+    },
+    {
+      "path": "pages/profile/vocabulary-test",
+      "style": {
+        "navigationBarTitleText": "词汇量测试"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/word/word",
+        "iconPath": "static/tab-word.png",
+        "selectedIconPath": "static/tab-word-active.png",
+        "text": "单词"
+      },
+      {
+        "pagePath": "pages/speaking/speaking",
+        "iconPath": "static/tab-speaking.png",
+        "selectedIconPath": "static/tab-speaking-active.png",
+        "text": "口语"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "static/tab-profile.png",
+        "selectedIconPath": "static/tab-profile-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "fu-speak",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}
